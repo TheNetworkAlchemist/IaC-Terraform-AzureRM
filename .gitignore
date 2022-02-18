@@ -17,7 +17,6 @@ variables.tf
 # Output
 output.tf
 
-
 # Lock Files
 terraform.lock.hcl
 
