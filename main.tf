@@ -48,7 +48,7 @@ resource "azurerm_virtual_network_gateway" "iac-vngw" {
 
   active_active = false
   enable_bgp    = false
-  sku           = "Basic"
+  sku           = "VpnGw1"
 
   ip_configuration {
     name                          = "vnetGatewayConfig"
@@ -64,7 +64,7 @@ resource "azurerm_virtual_network_gateway" "iac-vngw" {
 
 # Virtual Network Gateway Connection
 resource "azurerm_virtual_network_gateway_connection" "iac-vngwc" {
-  name                = "onpremise"
+  name                = var.virtual_net_gwc_name
   location            = var.resource_group_location
   resource_group_name = var.resource_group
 
