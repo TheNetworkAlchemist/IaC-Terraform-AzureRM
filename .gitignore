@@ -44,3 +44,6 @@ override.tf.json
 
 # Local .vscode directories
 **/.vscode/*
+
+# Ignore Misc Directory
+**/.ignore/*
