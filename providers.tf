@@ -14,7 +14,7 @@ provider "azurerm" {
   subscription_id = var.azure-subscription-id
   client_id       = var.azure-client-id
   # client_secret                     = "..."
-  arm-client-certificate-path     = var.arm-client-certificate-path
-  arm-client-certificate-password = var.arm-client-certificate-password
-  tenant_id                       = var.azure-tenant-id
+  client_certificate_path     = var.client-certificate-path
+  client_certificate_password = var.client-certificate-password
+  tenant_id                   = var.azure-tenant-id
 }
