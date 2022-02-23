@@ -56,10 +56,10 @@ Typical duration is 8 minutes
      IKE SA lifetime (seconds)
      IKE SA data size (Kilobytes) 
 
-/Data/IKE_ENCRYPTION_1 = aes256
-/Data/IKE_INTEGRITY_1  = sha1
-/Data/IKE_DHGROUP_1    = 2
-/Data/IKE_SALIFETIME_1 = 3600
+     /Data/IKE_ENCRYPTION_1 = aes256
+     /Data/IKE_INTEGRITY_1  = sha1
+     /Data/IKE_DHGROUP_1    = 2
+     /Data/IKE_SALIFETIME_1 = 3600
  
 
 ## Phase 2/Quick Mode:
@@ -69,11 +69,11 @@ Typical duration is 8 minutes
      IPsec SA (QMSA) lifetime (seconds)
      IPsec SA (QMSA) lifetime (kilobytes) 
 
-/Data/IPsec_ENCRYPTION_1 	= aes256
-/Data/IPsec_INTEGRITY_1  	= sha1
-/Data/IPsec_PFSGROUP_1   	= None
-/Data/IPsec_SALIFETIME   	= 3600
-/Data/IPsec_KB_SALIFETIME   = 102400000
+     /Data/IPsec_ENCRYPTION_1 	= aes256
+     /Data/IPsec_INTEGRITY_1  	= sha1
+     /Data/IPsec_PFSGROUP_1   	= None
+     /Data/IPsec_SALIFETIME   	= 3600
+     /Data/IPsec_KB_SALIFETIME     = 102400000
 
 
 ### Notes
