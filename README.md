@@ -23,6 +23,7 @@ This will build the following components:
 # Usage
 ## Variables
 See *sample-variables.tf*
+
 Edit file contents and rename as __*variables.tf*__
 
 ## Initiate Terraform and download AzureRM Provider
@@ -41,8 +42,7 @@ terrform apply
 ```
 
 #### Wait
-Virtual Network Gateways are expected to take 20-60 minutes to provision
-Typical duration is 25 minutes
+Virtual Network Gateways are expected to take __20-60__ minutes to provision.  Typical duration is __25__ minutes
 
 
 ### Identify Azure Public Cloud IP
@@ -55,8 +55,7 @@ terrform destroy
 ```
 
 #### Wait
-Virtual Network Gateways are expected to take 5-15 minutes to deprovision
-Typical duration is 8 minutes
+Virtual Network Gateways are expected to take __5-15__ minutes to deprovision.  Typical duration is __8__ minutes
 
 
 # VPN Phase 1 and Phase 2 Settings
