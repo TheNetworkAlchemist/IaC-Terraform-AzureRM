@@ -12,10 +12,13 @@ This will build the following components:
 * Create *sample-variables.tf*
 
 # Assumptions
-* Existing Resource Group
-* Existing default vnet
+* Existing __*Resource Group*__
+* Existing default __*Virtual Network*__
 * Existing __*GatewaySubnet*__
      * *may revise to create on-demand ~ TBD*
+* Ports are open to the on-prem VPN terminating device
+     * __UDP Port Number = 500__ → Used by IKE (IPSec control path)
+     * __UDP Port Number = 4500__ → Used by NAT-T (IPsec NAT traversal)
 
 # Usage
 ## Variables
