@@ -6,13 +6,13 @@ This will build the following
 
 # Assumptions
 * Existing default vnet
-* Existing *GatewaySubnet*
+* Existing __*GatewaySubnet*__
      * *may revise to create on-demand TBD*
 
 # Usage
 ## Variables
 See *sample-variables.tf*
-Edit file contents and rename as *variables.tf*
+Edit file contents and rename as __*variables.tf*__
 
 ## Initiate Terraform and download AzureRM Provider
 ```terraform
@@ -35,7 +35,7 @@ Typical duration is 25 minutes
 
 
 ### Identify Azure Public Cloud IP
-*pub_ip* is dynamically assigned after being provisioned.  Use this IP to complete the on-prem VPN configuration.  
+__*pub_ip*__ is dynamically assigned after being provisioned.  Use this IP to complete the on-prem VPN configuration.  
 
 
 ### Terraform Recycle all Components
@@ -77,4 +77,4 @@ Typical duration is 8 minutes
 
 
 ### Notes
-* Azure Virtual Network Gateways do not support IKEv2 under the 'basic' SKU
+* Azure Virtual Network Gateways do not support IKEv2 under the __*basic*__ SKU
