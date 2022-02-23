@@ -8,6 +8,9 @@ This will build the following components:
 * Virtual Network Gateway
 * Virtual Network Gateway Connection
 
+# To Do List
+* Create *sample-variables.tf*
+
 # Assumptions
 * Existing Resource Group
 * Existing default vnet
