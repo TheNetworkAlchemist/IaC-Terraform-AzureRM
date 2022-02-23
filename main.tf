@@ -48,7 +48,7 @@ resource "azurerm_virtual_network_gateway" "iac-vngw" {
 
   active_active = false
   enable_bgp    = false
-  sku           = "VpnGw1"
+  sku           = "VpnGw1"  #IKEv2 not supported under 'basic' SKU
 
   ip_configuration {
     name                          = "vnetGatewayConfig"
