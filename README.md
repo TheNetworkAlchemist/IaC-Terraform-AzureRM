@@ -2,9 +2,14 @@
 Deploying Infrastructure as Code leveraging Terraform and AzureRM
 
 ## Build Azure Site-to-Multi-Site VPN
-This will build the following
+This will build the following components:
+* Dynamic Public IP
+* Local Network Gateway
+* Virtual Network Gateway
+* Virtual Network Gateway Connection
 
 # Assumptions
+* Existing Resource Group
 * Existing default vnet
 * Existing __*GatewaySubnet*__
      * *may revise to create on-demand ~ TBD*
