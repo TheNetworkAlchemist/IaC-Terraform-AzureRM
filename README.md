@@ -7,7 +7,7 @@ This will build the following
 # Assumptions
 * Existing default vnet
 * Existing __*GatewaySubnet*__
-     * *may revise to create on-demand TBD*
+     * *may revise to create on-demand ~ TBD*
 
 # Usage
 ## Variables
